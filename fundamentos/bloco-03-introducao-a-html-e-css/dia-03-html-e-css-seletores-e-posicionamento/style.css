@@ -1,0 +1,12 @@
+h1, p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: rgb(20, 160, 111);
+}
+
+li:active {
+  font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
