@@ -9,22 +9,28 @@
     position: absolute;
     top: 400px;
     left: 60px;
+    z-index: 2;
   }
   
   .baloon {
     position: absolute;
-    top: 400px;
-    z-index: 2;
+    top: 100px;
+    left: 200px;
+    z-index: 4;
   }
   
   .speach {
     font-size: 25px;
     position: absolute;
-    top: 440px;
-    left: 230px;
-    z-index: 3;
+    top: 140px;
+    left: 220px;
+    z-index: 5;
   }
   
   .bowser {
     width: 200px;
+    position: absolute;
+    top: 260px;
+    left: 480px;
+    z-index: 3
   }
