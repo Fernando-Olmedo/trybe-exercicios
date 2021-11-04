@@ -25,3 +25,11 @@ li {
 li em {
   font-weight: 900;
 }
+
+#lingProg li:not(:nth-child(n+4)) {
+  color: blue;
+}
+
+.javaRosa {
+  background-color: pink;
+}
