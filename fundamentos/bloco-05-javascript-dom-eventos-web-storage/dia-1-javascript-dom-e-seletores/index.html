@@ -84,6 +84,23 @@
         }
         ajustaTitulo();
 
+        // Exercício 5
+        function caps() {
+            let cap = document.getElementsByTagName('p');
+            for (let i = 0; i < cap.length; i += 1) {
+                cap[i].innerHTML = cap[i].innerHTML.toUpperCase();
+            } 
+        }
+        caps();
+
+        // Exercício 6
+        function mostrar() {
+            let cons = document.getElementsByTagName('p');
+            for (let i = 0; i < cons.length; i += 1) {
+                console.log(cons[i].innerHTML);
+            } 
+        }
+        mostrar();
 
 
     </script>
